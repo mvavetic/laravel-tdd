@@ -2,27 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ac9760d-28dc-46de-ac03-574b96e2b1e9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/birdboard/tests/Setup/ProjectFactory.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/birdboard/app/Http/Controllers/ProjectTasksController.php" beforeDir="false" afterPath="$PROJECT_DIR$/birdboard/app/Http/Controllers/ProjectTasksController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/birdboard/app/Http/Controllers/ProjectsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/birdboard/app/Http/Controllers/ProjectsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/birdboard/app/Project.php" beforeDir="false" afterPath="$PROJECT_DIR$/birdboard/app/Project.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/birdboard/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/birdboard/app/Providers/AppServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/birdboard/app/Task.php" beforeDir="false" afterPath="$PROJECT_DIR$/birdboard/app/Task.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/birdboard/database/factories/TaskFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/birdboard/database/factories/TaskFactory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/birdboard/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/birdboard/public/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/birdboard/resources/views/auth/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/birdboard/resources/views/auth/login.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/birdboard/resources/views/auth/register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/birdboard/resources/views/auth/register.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/birdboard/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/birdboard/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/birdboard/resources/views/projects/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/birdboard/resources/views/projects/create.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/birdboard/resources/views/projects/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/birdboard/resources/views/projects/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/birdboard/resources/views/projects/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/birdboard/resources/views/projects/show.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/birdboard/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/birdboard/routes/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/birdboard/tailwind.js" beforeDir="false" afterPath="$PROJECT_DIR$/birdboard/tailwind.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/birdboard/tests/Feature/ManageProjectsTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/birdboard/tests/Feature/ManageProjectsTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/birdboard/tests/Feature/ProjectTasksTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/birdboard/tests/Feature/ProjectTasksTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/birdboard/tests/TestCase.php" beforeDir="false" afterPath="$PROJECT_DIR$/birdboard/tests/TestCase.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/birdboard/tests/Unit/TaskTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/birdboard/tests/Unit/TaskTest.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,16 +26,16 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/birdboard/app/Providers/AppServiceProvider.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
+            <state relative-caret-position="260">
               <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/birdboard/tests/Feature/ProjectTasksTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
+            <state relative-caret-position="1420">
               <caret line="74" column="16" selection-start-line="74" selection-start-column="16" selection-end-line="74" selection-end-column="16" />
               <folding>
                 <element signature="e#33#49#0#PHP" expanded="true" />
@@ -64,14 +44,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/birdboard/tests/Setup/ProjectFactory.php">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/birdboard/app/Observers/ProjectObserver.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="880">
-              <caret line="47" column="21" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
-              <folding>
-                <element signature="e#31#47#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="120">
+              <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -192,7 +169,7 @@
       <path value="$PROJECT_DIR$/birdboard/vendor/ramsey/uuid" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="232" />
     <option name="y" value="227" />
     <option name="width" value="580" />
@@ -223,33 +200,20 @@
               <item name="laravel-tdd" type="b2602c69:ProjectViewProjectNode" />
               <item name="laravel-tdd" type="462c0819:PsiDirectoryNode" />
               <item name="birdboard" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="laravel-tdd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laravel-tdd" type="462c0819:PsiDirectoryNode" />
+              <item name="birdboard" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Observers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="laravel-tdd" type="b2602c69:ProjectViewProjectNode" />
               <item name="laravel-tdd" type="462c0819:PsiDirectoryNode" />
               <item name="birdboard" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="laravel-tdd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="laravel-tdd" type="462c0819:PsiDirectoryNode" />
-              <item name="birdboard" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="laravel-tdd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="laravel-tdd" type="462c0819:PsiDirectoryNode" />
-              <item name="birdboard" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-              <item name="Feature" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="laravel-tdd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="laravel-tdd" type="462c0819:PsiDirectoryNode" />
-              <item name="birdboard" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-              <item name="Unit" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -260,7 +224,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../birdboard" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -297,19 +261,19 @@
       <workItem from="1562000577162" duration="1679000" />
       <workItem from="1562002278223" duration="294000" />
       <workItem from="1562002592846" duration="560000" />
-      <workItem from="1562061065531" duration="2045000" />
+      <workItem from="1562061065531" duration="2666000" />
+      <workItem from="1562095078927" duration="16000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23691000" />
+    <option name="totallyTimeSpent" value="24328000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.19667171" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.19969743" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" sideWeight="0.49848714" weight="0.3268921" />
       <window_info anchor="bottom" id="Database Changes" order="1" />
@@ -420,9 +384,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/routes/web.php" />
-    <entry file="file://$PROJECT_DIR$/birdboard/public/.htaccess">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/birdboard/.env">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
@@ -440,20 +401,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/birdboard/public/.htaccess">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/birdboard/app/Providers/AppServiceProvider.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
+        <state relative-caret-position="260">
           <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/birdboard/tests/Feature/ProjectTasksTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
+        <state relative-caret-position="1420">
           <caret line="74" column="16" selection-start-line="74" selection-start-column="16" selection-end-line="74" selection-end-column="16" />
           <folding>
             <element signature="e#33#49#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/birdboard/app/Observers/ProjectObserver.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
         </state>
       </provider>
     </entry>

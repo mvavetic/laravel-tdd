@@ -6,6 +6,8 @@ use Illuminate\Database\Eloquent\Model;
 
 class Project extends Model
 {
+    use RecordsActivity;
+
     /**
      * Attributes to guard against mass assignment.
      *
@@ -46,6 +48,17 @@ class Project extends Model
     /**
      * Add a task to the project.
      *
+     * @param array $tasks
+     * @return \Illuminate\Database\Eloquent\Collection
+     */
+    public function addTasks($tasks)
+    {
+        return $this->tasks()->createMany($tasks);
+    }
+
+    /**
+     * Add a task to the project.
+     *
      * @param  string $body
      * @return \Illuminate\Database\Eloquent\Model
      */
@@ -55,22 +68,22 @@ class Project extends Model
     }
 
     /**
-     * Record activity for a project.
+     * Invite a user to the project.
      *
-     * @param string $description
+     * @param \App\User $user
      */
-    public function recordActivity($description)
+    public function invite(User $user)
     {
-        $this->activity()->create(compact('description'));
+        $this->members()->attach($user);
     }
 
     /**
-     * The activity feed for the project.
+     * Get all members that are assigned to the team.
      *
-     * @return \Illuminate\Database\Eloquent\Relations\HasMany
+     * @return \Illuminate\Database\Eloquent\Relations\BelongsToMany
      */
-    public function activity()
+    public function members()
     {
-        return $this->hasMany(Activity::class);
+        return $this->belongsToMany(User::class, 'project_members')->withTimestamps();
     }
 }
